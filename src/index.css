@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Chivo", sans-serif;
 }
