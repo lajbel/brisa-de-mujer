@@ -1,0 +1,33 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.about__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about__title {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.about__description {
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.about__image {
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
+}

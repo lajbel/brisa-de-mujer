@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "name": "Conjunto Rojo Fuego",
+            "price": 12000,
+            "image": "https://www.michilenceria.com.ar/post/22202-big.jpg",
+            "colors": ["red"],
+            "sizes": ["S", "M", "XL"],
+            "id": 1
+        },
+        {
+            "name": "Conjunto Azul Agua",
+            "price": 12000,
+            "image": "https://i.imgur.com/xRcLdW6.png",
+            "colors": ["blue"],
+            "sizes": ["S", "M", "L"],
+            "id": 2
+        },
+        {
+            "name": "Conjunto Verde Hoja",
+            "price": 12000,
+            "image": "https://i.imgur.com/rjlgF4q.png",
+            "colors": ["green"],
+            "sizes": ["S", "M", "L"],
+            "id": 3
+        },
+        {
+            "name": "Conjunto Amarillo",
+            "price": 10000,
+            "image": "https://i.imgur.com/rvYvyIb.jpeg",
+            "colors": ["yellow"],
+            "sizes": ["M", "L"],
+            "id": 4
+        },
+        {
+            "name": "Conjunto Purpura Escarlata",
+            "price": 12000,
+            "image": "https://i.imgur.com/NxcWGoz.png",
+            "colors": ["purple"],
+            "sizes": ["S", "M", "L"],
+            "id": 5
+        }
+    ]
+}

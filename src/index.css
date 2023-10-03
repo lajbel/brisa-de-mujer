@@ -7,3 +7,16 @@
     box-sizing: border-box;
     font-family: "Chivo", sans-serif;
 }
+
+html,
+body {
+    height: 100vh;
+}
+
+#root {
+    height: 100vh;
+}
+
+.content {
+    padding: 10px;
+}

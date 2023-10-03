@@ -1,13 +1,26 @@
+import React, { Component } from "react";
+import { MainContext } from "../context/MainContext";
 import "../styles/item.css";
 
-export default function Item(props) {
-    return (
-        <div className="item">
-            <img className="item__image" src={props.image}></img>
-            <div className="item__infobox">
-                <h1 className="item__title">{props.title}</h1>
-                <p className="item__price">{props.price}</p>
+export class Item extends Component {
+    static contextType = MainContext;
+
+    handleClick = () => {
+        this.context.updateCurrentItem(this.props.data);
+        this.context.togglePopUp();
+    };
+
+    render() {
+        const { image, title, price } = this.props;
+
+        return (
+            <div className="item" onClick={this.handleClick}>
+                <img className="item__image" src={image}></img>
+                <div className="item__infobox">
+                    <h1 className="item__title">{title}</h1>
+                    <p className="item__price">${price}</p>
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
