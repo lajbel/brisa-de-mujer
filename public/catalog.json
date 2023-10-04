@@ -68,7 +68,7 @@
             "description": "Conjunto de lenceria de pokemon, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas y medias.",
             "price": 16969,
             "image": "https://i.imgur.com/EPWyYsL.png",
-            "colors": ["yellow"],
+            "colors": ["yellow", "black"],
             "sizes": ["S", "L"],
             "id": 8
         },
@@ -77,7 +77,7 @@
             "description": "Conjunto de lenceria negro, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas y medias.",
             "price": 16969,
             "image": "https://i.imgur.com/OGJ4Cut.png",
-            "colors": ["yellow"],
+            "colors": ["black"],
             "sizes": ["S", "L", "XXL"],
             "id": 9
         }
