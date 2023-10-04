@@ -7,7 +7,7 @@ export class Item extends Component {
 
     handleClick = () => {
         this.context.updateCurrentItem(this.props.data);
-        this.context.togglePopUp();
+        this.context.togglePopUp(true);
     };
 
     render() {

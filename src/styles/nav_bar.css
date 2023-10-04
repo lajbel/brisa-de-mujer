@@ -40,6 +40,10 @@
     color: #fff;
 }
 
+.nav__link-text {
+    display: none;
+}
+
 .nav__icon {
     display: inline-block;
     width: 30px;
@@ -51,8 +55,18 @@
     color: #fff;
 }
 
-.nav__link-text {
-    display: none;
+.nav__cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.nav__cart-count {
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 1280px) {

@@ -1,0 +1,13 @@
+.catalog-page {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    height: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+    .catalog-page {
+        flex-direction: row;
+    }
+}

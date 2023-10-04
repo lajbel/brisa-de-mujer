@@ -49,6 +49,27 @@
     font-weight: 600;
 }
 
+.item-popup__close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.item-popup__price {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.item-popup__size-selector {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
 @media screen and (min-width: 1280px) {
     .item-popup {
         flex-direction: row;

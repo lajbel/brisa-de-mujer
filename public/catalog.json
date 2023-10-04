@@ -2,6 +2,7 @@
     "items": [
         {
             "name": "Conjunto Rojo Fuego",
+            "description": "Conjunto de lenceria rojo fuego, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas. No incluye medias.",
             "price": 12000,
             "image": "https://www.michilenceria.com.ar/post/22202-big.jpg",
             "colors": ["red"],
@@ -10,6 +11,7 @@
         },
         {
             "name": "Conjunto Azul Agua",
+            "description": "Conjunto de lenceria azul agua, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas. No incluye medias.",
             "price": 12000,
             "image": "https://i.imgur.com/xRcLdW6.png",
             "colors": ["blue"],
@@ -18,6 +20,7 @@
         },
         {
             "name": "Conjunto Verde Hoja",
+            "description": "Conjunto de lenceria verde hoja, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas y medias.",
             "price": 12000,
             "image": "https://i.imgur.com/rjlgF4q.png",
             "colors": ["green"],
@@ -26,6 +29,7 @@
         },
         {
             "name": "Conjunto Amarillo",
+            "description": "Conjunto de lenceria amarillo, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas y medias.",
             "price": 10000,
             "image": "https://i.imgur.com/rvYvyIb.jpeg",
             "colors": ["yellow"],
@@ -34,11 +38,48 @@
         },
         {
             "name": "Conjunto Purpura Escarlata",
+            "description": "Conjunto de lenceria purpura escarlata, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas y medias.",
             "price": 12000,
             "image": "https://i.imgur.com/NxcWGoz.png",
-            "colors": ["purple"],
+            "colors": ["blue"],
             "sizes": ["S", "M", "L"],
             "id": 5
+        },
+        {
+            "name": "Conjunto HeartGold",
+            "description": "Conjunto de lenceria dorada, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas y medias.",
+            "price": 14000,
+            "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/213/265/products/314ed7cf-7518-4eb2-aa45-8090045d6f681-791adaf721ffe92bab16624803526294-640-0.jpeg",
+            "colors": ["yellow", "black"],
+            "sizes": ["S", "M", "L"],
+            "id": 6
+        },
+        {
+            "name": "Conjunto White",
+            "description": "Conjunto de lenceria blanco, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas y medias.",
+            "price": 16969,
+            "image": "https://i.imgur.com/tN9i2TF.png",
+            "colors": ["white"],
+            "sizes": ["S", "L"],
+            "id": 7
+        },
+        {
+            "name": "Conjunto Juan Pablo",
+            "description": "Conjunto de lenceria de pokemon, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas y medias.",
+            "price": 16969,
+            "image": "https://i.imgur.com/EPWyYsL.png",
+            "colors": ["yellow"],
+            "sizes": ["S", "L"],
+            "id": 8
+        },
+        {
+            "name": "Conjunto Chinwa",
+            "description": "Conjunto de lenceria negro, confeccionado en encaje y tul. Corpiño con aro y taza soft. Bombacha colaless con tiritas regulables. Incluye portaligas y medias.",
+            "price": 16969,
+            "image": "https://i.imgur.com/OGJ4Cut.png",
+            "colors": ["yellow"],
+            "sizes": ["S", "L", "XXL"],
+            "id": 9
         }
     ]
 }

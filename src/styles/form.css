@@ -40,5 +40,5 @@
 
 .form__button:hover {
     background-color: #333;
-    transform: scale(1.05);
+    transform: scale(1.005);
 }

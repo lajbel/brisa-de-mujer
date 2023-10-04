@@ -1,14 +1,15 @@
 import { Component } from "react";
 import { Page } from "./Page";
-import Catalog from "../components/Catalog";
+import { ContextCatalog } from "../components/ContextCatalog";
 
 export class HomePage extends Component {
     render() {
         return (
-            <Page>
+            <Page clas>
                 <h1 className="page__title">Brisa de Mujer</h1>
+                <img className="about__image" src="/Logo.png"></img>
                 <h2 className="page__title2">Último Catalogo</h2>
-                <Catalog />
+                <ContextCatalog latest />
             </Page>
         );
     }
