@@ -9,7 +9,7 @@ export class AboutPage extends Component {
             <Page>
                 <div className="about">
                     <div className="about__section">
-                        <img className="about__image" src="/Logo.png"></img>
+                        <img className="about__image" src="/logo.png"></img>
                         <h1 className="about__title">Sobre Nosotras</h1>
                         <p className="about__description">
                             Nosotras somos un grupo de jóvenes emprendedoras, que un día decidimos crear una marca de
